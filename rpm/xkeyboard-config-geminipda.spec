@@ -1,8 +1,8 @@
-Name:       xkeyboard-config
+Name:       xkeyboard-config-geminipda
 
 Summary:    Alternative xkb data files
 Version:    2.10.1
-Release:    1
+Release:    2
 Group:      System/X11
 License:    MIT
 BuildArch:  noarch
@@ -12,8 +12,8 @@ BuildRequires:  perl(XML::Parser)
 BuildRequires:  gettext
 BuildRequires:  intltool
 BuildRequires:  fdupes
-Provides:   xkbdata
-Obsoletes:   xorg-x11-xkbdata
+Provides:   xkbdata xkeyboard-config
+Obsoletes:   xorg-x11-xkbdata xkeyboard-config
 
 %description
 Alternative xkb data files.
